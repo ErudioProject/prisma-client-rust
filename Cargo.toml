@@ -63,7 +63,7 @@ tokio = { version = "1.21.0", features = ["fs"], optional = true }
 tracing = { version = "0.1.36", optional = true }
 
 # features = "rspc"
-rspc = { version = "0.1.2", optional = true, features = [
+rspc = { git = "https://github.com/oscartbeaumont/rspc", branch = "flatten-enum", optional = true, features = [
   "indexmap",
   "chrono",
   "uuid",

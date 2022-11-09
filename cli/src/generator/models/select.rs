@@ -240,7 +240,8 @@ pub fn generate_macro(model: &dml::Model, module_path: &TokenStream) -> TokenStr
                                     type_map: _opts.type_map
                                 },
                                 &[]
-                            )
+                            ),
+                            flatten: false
                         }),*],
                         type_id: None
                     })
